@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" media="(max-width: 599px)" type="text/css" href="styles/mobile.css">
+    <link rel="stylesheet" media="(min-width: 600px)" type="text/css" href="styles/base.css">
+    <title>devmentor.pl - HTML & CSS: RWD - #04</title>
+</head>
+<body>
+    <div class="div--menu">
+        <header class="menu">
+            <!-- <div class="div--hamb"> -->
+            <label class="hamb__label hamburger__label" for="menu-switcher">&nbsp&nbsp&nbsp</label>
+            <span class="hamburger__txt">menu</span>
+            <input class="hamb__input hamburger__icon" type="checkbox" id="menu-switcher">
+            <!-- <div class="div--hamburger"><button class="hamburger"></button></div>  -->
+            <!-- </div> -->
+            <nav class="menu__nav">
+                             
+                <ul class="nav">
+                    <li class="nav__item nav__item--start" id="Start">
+                        <a class="nav__link nav__link--start" href="#">start</a>
+                    </li>
+                    <li class="nav__item nav__dropdown--menu" id="Offer">
+                        <a class="nav__link nav__link--menu" href="#">oferta <span class="nav__link--arrow">></span></a>
+                            <ul class="nav__dropdown dropdown">
+                                <li class="dropdown__item dropdown__item--web">
+                                    <a class="dropdown__link dropdown__link--web" href="#">strony internetowe</a>
+                                </li>
+                                <li class="dropdown__item  dropdown__dualDropdown--menu">
+                                    <a class="dropdown__link dropdown__link--menu" href="#"><span class="dropdown__link--arrow"><</span>pozycjonowanie stron<span class="dropdown__link--mobiarrow">v</span></a>
+                                    <ul class="dropdown__dualDropdown dualDropdown">
+                                        <li class="dualDropdown__item dropdown__item--2">
+                                            <a class="dualDropdown__link dropdown__link--2" href="#">item 2.1</a>
+                                        </li>
+                                        <li class="dualDropdown__item">
+                                            <a class="dualDropdown__link" href="#">item 2.2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                    </li>
+                    <li class="nav__item nav__item--contact" id="Contact">
+                        <a class="nav__link " href="#">Kontakt</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+</body>
+</html>
